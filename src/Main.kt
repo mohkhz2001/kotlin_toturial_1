@@ -72,8 +72,14 @@ fun main(){
 
     // ---- loop num 2-2 ----
 
-//    for (i in 1..100)
+//    for (i in 1..100)//  this means => 1 to 100
 //        println(i)
+
+//    for( i in 1 until 100){ //  this means => 1 to 99
+//        print(i)
+//    }
+//
+//    for (i in 0..100 step 2) // this means 0 , 2, 4, 6,....
 
     // ---------  something like the switch case
 
@@ -129,6 +135,11 @@ fun main(){
 //        println(0 )
 //    }
 
+    // static class
+    Static.name //  this is the static
+    Static.test()
+
+
 }
 
 // ----- lamda fun
@@ -156,9 +167,11 @@ fun main(){
 //
 //}
 //
-//fun test1(number:Int = 10):Boolean{  // test is the int and if i dont set it => defalt value in 10
+//fun test1(number:Int = 10):Boolean{  // test is the int and if i dont set it => defalt value in 10   /// Priority is with no defalt value
 //    return false
 //}
 //fun Int.isOdd():Boolean{
 //    return false;
 //}
+
+//fun add(num1:Int , num2:Int) = num1 + num2  // this will return the num1 + num2
